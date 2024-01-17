@@ -62,6 +62,6 @@ Check canary deployment again.
 kubectl describe canary <canary-name>
 ```
 Canary found a new revision, it will start the scaling up and deployment process which can be monitored here.
-The strategy for `deployment` and `rollback ` and their `thresholds` are contained in the `canary.yaml` file.
+The strategy for `deployment` and `rollback` and their `thresholds` are contained in the `canary.yaml` file.
 
 
